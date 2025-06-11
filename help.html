@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding:50px 100px;
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        span{
+            color: teal;
+        }
+        ul{
+            margin-left: 25%;
+            display: flex;
+            width: 50%;
+            /* background: #000; */
+            justify-content: space-evenly;
+        }
+        ul li{
+            list-style: none;
+        }
+        ul li a{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+        }
+        #active{
+            font-weight: bold;
+            color: orange;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is our <span>Homepage</span></h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod tenetur molestiae a cum labore alias cumque magni, nobis laudantium amet.</p>
+    <hr>
+    <ul type="square">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./music/songs.html">songs</a></li>
+        <li><a href="./movies/action_movies/movie.html">movies</a></li>
+        <li><a href="./movies/cinema.html">cinema</a></li>
+        <li><a id="active" href="#">Help</a></li>
+    </ul>
+</body>
+</html>
